@@ -1,68 +1,47 @@
-# CodeIgniter 4 Application Starter
+MINGGU KE-3 4AEB-1 ABSEN BAWAH
 
-## What is CodeIgniter?
+ENTERPRISE ME SYSTEM
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+code igniter 4 latest ver
+bootstrap 5 latest ver
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+1.frontend done
+2.backend baru jadi di spk aja, buat form2 lain silahkan contoh form spk, udh bisa CRUD , passing data nya silahkan diliat, form kalau kepanjangan pake fungsi multi step silahkan diliat di folder js
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+NOTE MINGGU KE - 4 dst (kasih emot kalau sudah done)
+1. wajib benerin ERD Sampai tuntas,
+kolom kolom yang ada di databse itu tulisan2 / item yang kita isi pada form fisik (yang penting aja dan wajib ada) , ini semua harus ada di database soalnya kalau gak lengkap jadi bolak balik lagi, harus lengkap soalnya biar bisa export pdf dengan layout sama persis kaya form fisik. diusahakan minggu ke - 4 beres.
+2. tiap minggu usahakan 1 backend form beres (optional buat minggu ke-4 ) kalau mau beresin ERD sampai tuntas gkpp kalau gak ke backend , tapi gathering info nya harus tuntas, sama gathering info printilan yang ada di logbook.
+3. Usahain Komunikasi berpusat ke Mas / Pak Yogi, yang hadir ke sidang kan beliau, jadi cukup beliau aja biar gak pusing ada 2 pendapat, soalnya kalau ngikutin mas/pak andri nanti keteter pas di mas/pak yogi nya.
+4. animasi mesin diganti visualisasi tracking SPK / Proses produksi di workshop ME, gathering info tata letak mesin di workshop ME, buat top view workshop ME gausah detail cukup kotak2 aja kasih nama2 mesin.
+4. Gathering info yg ada di logbook info lengkap kontak hapis (untuk minggu ke - 4)
+5. kalau ada penulisan script yang berulang & kurang efektif silahkan dibuat function
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+NOTE FEATURE
+1. dashboard
+a. problem di google api calendar, cuman bertahan sampe beberapa hari, sisanya kehilangan akses & gkbisa liat event
+b. grafik jam permesinan harus include sleuruh mesin , pakai properti select option contoh mesin cnc , mesin bor dst
+c. pertimbangkan info lain yang diperlukan ditampilkan di dashboard
 
-## Installation & updates
+2.spk
+a. popup validasi gambar belum dibuat fitur jika ada , maka tampilkan link verifikasi yang sudah di input, jika tidak tampilkan input text untuk menginput
+b. optional searchbox belum ajax jadi perlu reload page , dan kadang pas reload ada notif ganggu resubmit form ?
+c. kode no spk, penawaran & order masih seadanya soalnya infonya itu didapat dari BPU , kita gabisa ujuk2 bikin, tapi karena blm integrasi jd dibuat ala ala dulu
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+3.order
+a. backend total belum
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+4. proses
+a. backend total belum
+b. cari library js buat half circle diagram / chart untuk proses
 
-## Setup
+4. permesinan
+a.backend belum total
+b. penulisan menu masih kurang efektif, harusnya list mesin konek ke database , tinggal pake looping , tapi karena data mesinnya belum ada sementara gitu dulu buat preview biar kebayang
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+5. gudang
+a.backend belum total
 
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> The end of life date for PHP 7.4 was November 28, 2022.
-> The end of life date for PHP 8.0 was November 26, 2023.
-> If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> The end of life date for PHP 8.1 will be November 25, 2024.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+6. login & hierarcy sistem
+a.belum total
+b. cari info tentang program penambahan role
